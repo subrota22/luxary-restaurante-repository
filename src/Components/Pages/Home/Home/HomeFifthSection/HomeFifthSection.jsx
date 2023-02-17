@@ -6,7 +6,7 @@ const HomeFifthSection = () => {
     return (
         <>
             <div className='topSpaceOfHomeSecondDiv fifthSection'>
-                <div className="alignOfUserFeedbackText">
+                <div className="alignOfUserFeedbackText fw-bold">
                     <h2>What our clients say</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptate fugit deleniti sunt quasi nisi <br /> voluptas ex repellendus perspiciatis ipsum!</p>
                 </div>

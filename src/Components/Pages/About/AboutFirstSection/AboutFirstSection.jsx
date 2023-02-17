@@ -6,8 +6,9 @@ import app4 from "../../../../assets/aboutImages/uber.svg";
 const AboutFirstSection = () => {
     return (
         <>
-
-            <div className="container aboutFirstSection">
+           <div className="animateDivForAboutFirstSection">
+            
+           <div className="container aboutFirstSection">
                 <div className="row">
                     <div className="addTopSpaceForAboutTextDiv">
                         <div className='textDivSpace'>
@@ -26,7 +27,7 @@ const AboutFirstSection = () => {
 
             </div>
             <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='over_style_image' />
-            <img src="https://i.ibb.co/NFGwYWP/about-Pizza.jpg" alt="pizza" className='pizzaStyle' />
+            <img src="https://i.ibb.co/NFGwYWP/about-Pizza.jpg" alt="pizza" className='pizzaStyle'/>
             <div className="aboutAppsStyle">
                 <div className="container">
                     <div className="row">
@@ -46,10 +47,11 @@ const AboutFirstSection = () => {
             </div>
 
             <div className="dishesImages">
-                <h2 className="text-dark fs-1 fw-bolder my-5 text-center"> Our favourite dishes </h2>
+            <h2 className="text-dark fs-1 fw-bolder my-5 text-center d-block d-lg-none"> Our favourite dishes </h2>
             <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='pizzaImageStyle'/>
             <img src="https://i.ibb.co/NFGwYWP/about-Pizza.jpg" alt="pizza" className='pizzaImageStyle' />
             </div>
+           </div>
         </>
     );
 };

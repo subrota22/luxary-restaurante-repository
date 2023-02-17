@@ -235,7 +235,8 @@
     border: 2px solid lime;
     border-radius: 18px;
     transition-duration: 1s;
-    transform: scale(1.2);
+    transform: scale(1.1);
+    margin-top: 10px 10px;
 }
 .browsArticleButton{
     padding: 15px;
@@ -319,6 +320,22 @@ margin-top: -40px;
     height: 420px;
     border-radius: 20px;
 }
+.appDivStyle:hover{
+    box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
+    border: none;
+    transition-duration: 1s;
+}
+.foodFollowImageSize:hover{
+ transform: scale(1.1);
+ transition-duration: 1s;
+ box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
+}
+.foodFollowImage:hover{
+    transform: scale(0.9);
+    transition-duration: 1s;
+    box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
+}
+
 /* RWD  */
 @media (max-width:1000px) {
     .foodPrice{ width: 100%; }

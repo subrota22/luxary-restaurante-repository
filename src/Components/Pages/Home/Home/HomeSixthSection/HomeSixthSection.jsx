@@ -13,7 +13,7 @@ const HomeSixthSection = () => {
                 <div>
                     <div className='RightArticlesStyle fw-bold text-secondary'>
                         <img src="https://i.ibb.co/3sdQZvy/articles.jpg" alt="articles" className='articlesImage' />
-                        <div className="py-3 ps-3 ">
+                        <div className="py-3 ps-3 fw-bold">
                         <p className='text-secondary fs-5'>September 1, 2022</p>
                         <p className='fs-3  fw-bold'>The secret trick to prepare a <br /> perfect burger</p>
                         <p className='text-secondary fs-6'> Lorem ipsum dolor sit amet consectetur adipiscing elitilmim semper adipisc</p>

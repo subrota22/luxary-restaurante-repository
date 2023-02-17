@@ -111,6 +111,14 @@
 
 .pizzaImageStyle  {display: none;}
 
+.animateDivForAboutFirstSection > .over_style_image, .pizzaStyle , .aboutAppsStyle ,
+.aboutSecondSection{
+animation: boxshadow infinite linear forwards alternate 1s;
+}
+@keyframes boxshadow{
+    from{box-shadow: 0 0 3px 3px rgba(0, 0, 255, 0.5);}
+    to{box-shadow:  0 0 6px 6px rgba(0, 128, 0, 0.5) ;}
+}
 /* RWD  */
 
 @media (max-width:1000px) {
