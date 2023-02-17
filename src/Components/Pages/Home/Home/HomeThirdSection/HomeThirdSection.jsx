@@ -15,7 +15,7 @@ const HomeThirdSection = () => {
 
                         </div>
                         {/* left side div  */}
-                        <div className='ms-5 topSpaceOfHomeSecondDiv my-3'>
+                        <div className='ms-5 topSpaceOfHomeSecondDiv my-3 fw-bold'>
                             <h2> About us</h2>
                             <p> Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.</p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta eveniet quos iure mollitia nobis nemo! Sequi eum ducimus reiciendis? Incidunt aliquam repudiandae ea, facere voluptatem hic dolorem ad voluptatum nemo aut, ex illum delectus nisi? Quos nulla magnam perspiciatis quis quam distinctio iste ea voluptas voluptates vero in optio animi fugit soluta a vel assumenda quibusdam nam aut recusandae reprehenderit, facilis minima. Ex dolores maxime illum repellat ducimus quisquam!</p>
@@ -28,7 +28,7 @@ const HomeThirdSection = () => {
                     </div>
 
                     {/* third div  */}
-                    <div className="internalDivOfAbout my-3">
+                    <div className="internalDivOfAbout my-3 fw-bold text-secondary">
                         <p className='fs-3 fw-bold text-center my-2'> Come and visit us</p>
                         <div className="d-flex flex-column  flex-md-row mx-2">
                             <div>
