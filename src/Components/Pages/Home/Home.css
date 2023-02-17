@@ -145,6 +145,7 @@
     border-radius: 3px;
     padding-top: 120px;
     text-align: start;
+    width: 750px;
 }
 
 .pizzaImage {
@@ -261,7 +262,7 @@
 .bookLeftSideDiv{
     background-color: rgb(255 118 41);
     height: 955px;
-    width: 575px;
+    width: 587px;
     margin-right: -250px;
     position: relative;
 }
@@ -342,9 +343,9 @@ margin-top: -40px;
     .priceDiv{margin: 10px 5px; width: 100%;}
     .fifthSection{margin-left: 47%;}
     .pizzaDivStyle{ width: 100%; margin-left:190px;}
-    .rightArrow,.leftArrow{width: 100px ; margin-top: -48px;}
-    .Arrow{width: auto; padding: 58px; margin-top: 50%;}
-    .middleDivForUserFeedback{width: auto; height: auto;}
+    .rightArrow,.leftArrow{width: 30px ; margin-top: -8px;}
+    .Arrow{width: auto; padding: 20px; margin-top: 60%;}
+    .middleDivForUserFeedback{width: 401px; height: auto;}
     .homeSixDiv{margin-left: 25%; text-align: center;}
     .articlesImageSize{width: 100%; height: 258px;}
     .articlesImage{width: 80%;}
@@ -358,6 +359,7 @@ margin-top: -40px;
     .footerDiv{margin-left: 20%;}
     .RightArticlesStyle{margin-left: -10%;}
     .BookTextStyle{margin-left: 30%; font-size: larger;}
+    .leftDivFlex  .pizzaImage{margin: 30px 6px; margin-left: -28px; border-radius: 20px;}
 }
 
 @media (max-width:500px) {

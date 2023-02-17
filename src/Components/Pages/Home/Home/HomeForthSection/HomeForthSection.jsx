@@ -75,10 +75,10 @@ const HomeForthSection = () => {
                         {
                             allFoodPrice?.map(food =>
                                 <div className="col-12 col-md-6 col-lg-3 priceDiv" key={food?.id}>
-                                  <div className="d-flex flex-column">
-                                  <img src={food?.image} alt="food" className='foodPrice resizeBackImage' />
-                                    <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
-                                  </div>
+                                    <div className="d-flex flex-column">
+                                        <img src={food?.image} alt="food" className='foodPrice resizeBackImage' />
+                                        <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
+                                    </div>
                                     <p className='fs-4 fw-bold my-3 text-center'>{food?.foodName}</p>
                                     <p className='fs-6 fw-bold my-2 text-center'>{food?.foodDescription}</p>
                                 </div>
@@ -95,10 +95,13 @@ const HomeForthSection = () => {
             <div className="topSpaceOfHomeSecondDiv pizzaDivStyle">
                 <div className="d-flex flex-column my-3 flex-lg-row justify-content-center w-100">
                     <div className='rightDivFlex'>
-                        <div className="mx-auto">
+                        <div className="auto">
                             <h2 className='fs-2 fw-bold text-start  text-white' style={{ marginLeft: "150px" }}>Taste the most <br />
                                 delicious burger in <br /> Los Angeles, CA</h2>
-                            <p className='my-3 ps-2 text-white' style={{ marginLeft: "130px" }}>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum. Order online</p>
+                            <p className='my-3 px-2  text-start text-white fw-bold text-secondary' style={{ marginLeft: "130px" }}>
+                                Lorem ipsum dolor sit amet consectetur <br />
+                                adipiscing elit ugue quam diam  vitae velit <br />
+                                bibendum elementum. Order online</p>
 
                         </div>
                         <div className="d-flex flex-column my-5 flex-lg-row justify-content-center buttonGroup">

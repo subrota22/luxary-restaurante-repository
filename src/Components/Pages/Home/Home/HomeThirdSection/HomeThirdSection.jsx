@@ -29,7 +29,7 @@ const HomeThirdSection = () => {
 
                     {/* third div  */}
                     <div className="internalDivOfAbout my-3 fw-bold text-secondary">
-                        <p className='fs-3 fw-bold text-center my-2'> Come and visit us</p>
+                        <p className='fs-3 fw-bold text-center my-2 text-dark'> Come and visit us</p>
                         <div className="d-flex flex-column  flex-md-row mx-2">
                             <div>
                                 <img src={aboutLogo} alt="about logo" className='aboutLogo' />

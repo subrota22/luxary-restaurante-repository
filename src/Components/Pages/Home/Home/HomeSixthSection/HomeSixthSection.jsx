@@ -4,7 +4,7 @@ const HomeSixthSection = () => {
         <>
         <div className="homeSixDiv">
             <div className="d-flex flex-column flex-md-row justify-content-between textStyleSectionSix">
-            <h2> Our  articles </h2>
+            <h2 className='ms-2'> Our  articles </h2>
             <div>
             <button className="browsArticleButton fw-bold text-secondary">Brows our articles</button>
             </div>
