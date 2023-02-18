@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function CarouselPhotos() {
   return (
     <>
-    <div className="container">
+    <div className="container carouselContainer">
     <Carousel slide={false}>
       <Carousel.Item>
         <img

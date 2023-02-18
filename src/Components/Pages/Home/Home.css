@@ -337,8 +337,13 @@ margin-top: -40px;
     box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
 }
 
+
+
 /* RWD  */
 @media (max-width:1000px) {
+    .carouselContainer{
+        margin-left: 24%;
+       }
     .foodPrice{ width: 100%; }
     .priceDiv{margin: 10px 5px; width: 100%;}
     .fifthSection{margin-left: 47%;}
