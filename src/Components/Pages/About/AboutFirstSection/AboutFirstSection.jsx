@@ -6,7 +6,7 @@ import app4 from "../../../../assets/aboutImages/uber.svg";
 const AboutFirstSection = () => {
     return (
         <>
-           <div className="animateDivForAboutFirstSection">
+           <div className="animateDivForAboutFirstSection"  data-aos="flip-left">
             
            <div className="container aboutFirstSection">
                 <div className="row">
@@ -23,7 +23,7 @@ const AboutFirstSection = () => {
                 </div>
             </div>
 
-            <div className="backgroundFirstSectionDiv">
+            <div className="backgroundFirstSectionDiv" data-aos="flip-left">
 
             </div>
             <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='over_style_image' />
@@ -46,7 +46,7 @@ const AboutFirstSection = () => {
                 </div>
             </div>
 
-            <div className="dishesImages">
+            <div className="dishesImages" data-aos="flip-left">
             <h2 className="text-dark fs-1 fw-bolder my-5 text-center d-block d-lg-none"> Our favourite dishes </h2>
             <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='pizzaImageStyle'/>
             <img src="https://i.ibb.co/NFGwYWP/about-Pizza.jpg" alt="pizza" className='pizzaImageStyle' />

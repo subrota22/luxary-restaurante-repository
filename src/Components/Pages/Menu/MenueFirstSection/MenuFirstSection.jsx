@@ -64,7 +64,7 @@ const MenuFirstSection = () => {
     ]
     return (
         <>
-          <div className="container menuDivSpace">
+          <div className="container menuDivSpace" data-aos="zoom-in">
             <div className="row">
              <div className="text-center">
              <h2> Our menu</h2>
@@ -73,7 +73,7 @@ const MenuFirstSection = () => {
              ugue quam diam vitae velit bibendum elementum dolor.</p>
              </div>
              {/* menu items */}
-            <div className="d-flex flex-column flex-lg-row justify-content-center allMenuButton">
+            <div className="d-flex flex-column flex-lg-row justify-content-center allMenuButton" data-aos="zoom-in">
             <button className="allMenu">All</button>
              <button className="menuButton">Breakfast</button>
              <button className="menuButton">Main Dishes</button>
@@ -89,7 +89,7 @@ const MenuFirstSection = () => {
                         {
                             allFoodPrice?.map(food =>
 
-                                <div className="col-sm-12 col-md-6 col-lg-3 priceDiv" key={food?.id}>
+                                <div className="col-sm-12 col-md-6 col-lg-3 priceDiv" key={food?.id} data-aos="zoom-in">
                                     <div className='foodPrice resizeBackImage' style={{ backgroundImage: `url('${food?.image}')` }}>
                                         <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
                                     </div>

@@ -64,7 +64,7 @@ const HomeForthSection = () => {
 
     return (
         <>
-            <div className="secondBrowsForHome topSpaceOfHomeSecondDiv mb-5">
+            <div className="secondBrowsForHome topSpaceOfHomeSecondDiv mb-5"  data-aos="zoom-in-left">
                 <div className="textSpace">
                     <h2 className='text-center fs-3 fw-bold my-3'> Browse our menu </h2>
                     <p className='p-4 my-5 text-dark fs-6 fw-bold w-50 mx-auto'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</p>
@@ -74,7 +74,7 @@ const HomeForthSection = () => {
 
                         {
                             allFoodPrice?.map(food =>
-                                <div className="col-12 col-md-6 col-lg-3 priceDiv" key={food?.id}>
+                                <div className="col-12 col-md-6 col-lg-3 priceDiv" key={food?.id}  data-aos="flip-left">
                                     <div className="d-flex flex-column">
                                         <img src={food?.image} alt="food" className='foodPrice resizeBackImage' />
                                         <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
@@ -94,7 +94,8 @@ const HomeForthSection = () => {
 
             <div className="topSpaceOfHomeSecondDiv pizzaDivStyle">
                 <div className="d-flex flex-column my-3 flex-lg-row justify-content-center w-100">
-                    <div className='rightDivFlex'>
+                    <div className='rightDivFlex' data-aos="zoom-in-right"
+                        data-aos-easing="linear">
                         <div className="auto">
                             <h2 className='fs-2 fw-bold text-start  text-white' style={{ marginLeft: "150px" }}>Taste the most <br />
                                 delicious burger in <br /> Los Angeles, CA</h2>
@@ -109,7 +110,8 @@ const HomeForthSection = () => {
                             <button className="reservateButton reservateButtonStyle my-3" style={{ border: "2px solid white" }} > Reservate </button>
                         </div>
                     </div>
-                    <div className='leftDivFlex'>
+                    <div className='leftDivFlex' data-aos="zoom-in-left"
+                        data-aos-easing="linear">
                         <img src="https://i.ibb.co/6Hh5hZF/hill-Of-Pizza.jpg" alt="pizza" className='pizzaImage' />
                     </div>
                 </div>

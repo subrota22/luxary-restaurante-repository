@@ -3,7 +3,7 @@ import React from 'react';
 const HomeSectionEight = () => {
     return (
         <>
-            <div className="homeSixDiv homeSectionEight">
+            <div className="homeSixDiv homeSectionEight" data-aos="fade-up">
                 <div className='d-flex flex-column flex-lg-row my-5 justify-content-between buttonGroup'>
                     <h2 className='text-center my-5'> Follow us on Instagram </h2>
                     <button className="reservateButton my-5 py-2 px-3"> Follow us </button>

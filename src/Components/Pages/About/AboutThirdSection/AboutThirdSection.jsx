@@ -3,7 +3,7 @@ import React from 'react';
 const AboutThirdSection = () => {
     return (
         <>
-   <div className="aboutTeamSection">
+   <div className="aboutTeamSection" data-aos="zoom-in">
    <div className="container">
             <div className="row">
                 <h2 className='text-center fs-2 fw-bold'> Meet our team </h2>

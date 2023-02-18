@@ -51,11 +51,11 @@ const valueData = [
       <div className="aboutForthSectionDiv">
       <div className="container">
         <div className="row">
-            <h2 className='fs-2 fw-bold text-center'>The value that drive everything <br /> we do</h2>
+            <h2 className='fs-2 fw-bold text-center' data-aos="zoom-in">The value that drive everything <br /> we do</h2>
            
          {
             valueData?.map ( (item) => 
-            <div className="col-12 col-md-6 col-lg-4 valueDiv">
+            <div className="col-12 col-md-6 col-lg-4 valueDiv" data-aos="zoom-in">
             <img src={item?.logo} alt="value logo" className='valueLogoImage'/>
             <p className='fs-2 text-secondary fw-bold'>{item?.name}</p>
             <p className='text-secondary fw-bold fs-6 text-center'>{item?.description}</p>

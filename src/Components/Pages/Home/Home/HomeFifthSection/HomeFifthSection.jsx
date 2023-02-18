@@ -5,7 +5,9 @@ import star from "../../../../../assets/homeImages/star-svgrepo-com.svg";
 const HomeFifthSection = () => {
     return (
         <>
-            <div className='topSpaceOfHomeSecondDiv fifthSection'>
+            <div className='topSpaceOfHomeSecondDiv fifthSection' data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div className="alignOfUserFeedbackText fw-bold">
                     <h2>What our clients say</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptate fugit deleniti sunt quasi nisi <br /> voluptas ex repellendus perspiciatis ipsum!</p>
@@ -40,7 +42,7 @@ const HomeFifthSection = () => {
                                 </div>
                             </div>
                             <div className='Arrow'>
-                                <img src={rightArrow} alt="leftArrow" className='leftArrow'/>
+                                <img src={rightArrow} alt="leftArrow" className='leftArrow' />
                             </div>
                         </div>
                     </div>

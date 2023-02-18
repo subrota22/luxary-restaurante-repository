@@ -6,8 +6,8 @@ import menu4 from "../../../../../assets/homeImages/div4.svg";
 const HomeSecondSection = () => {
     return (
         <>
-            <div className="container topSpaceOfHomeSecondDiv">
-                 {/* menu div  */}
+            <div className="container topSpaceOfHomeSecondDiv" data-aos="zoom-in">
+                {/* menu div  */}
                 <div className="row mx-auto">
                     <p className='text-center fs-3 fw-bold textStyle'>Browse our menu</p>
                     <div className="col-12 col-md-6 col-lg-3 my-3 border-2 homeDivSectionSecond">

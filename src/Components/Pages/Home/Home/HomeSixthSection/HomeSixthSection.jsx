@@ -2,7 +2,7 @@ import React from 'react';
 const HomeSixthSection = () => {
     return (
         <>
-        <div className="homeSixDiv">
+        <div className="homeSixDiv"  data-aos="flip-right">
             <div className="d-flex flex-column flex-md-row justify-content-between textStyleSectionSix">
             <h2 className='ms-2'> Our  articles </h2>
             <div>

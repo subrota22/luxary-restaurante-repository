@@ -5,7 +5,7 @@ import aboutLogo3 from "../../../../../assets/aboutImages/logoAbout3.svg";
 const HomeThirdSection = () => {
     return (
         <>
-            <div className="aboutDivOfHomePage container topSpaceOfHomeSecondDiv">
+            <div className="aboutDivOfHomePage container topSpaceOfHomeSecondDiv" data-aos="fade-down">
                 <div className="row">
                     <div className="d-flex flex-column flex-md-column flex-lg-row mx-2">
                         {/* right side div  */}

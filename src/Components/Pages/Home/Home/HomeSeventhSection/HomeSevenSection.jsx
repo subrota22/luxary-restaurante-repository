@@ -5,7 +5,7 @@ import aboutLogo3 from "../../../../../assets/aboutImages/logoAbout3.svg";
 const HomeSevenSection = () => {
     return (
         <>
-            <div style={{"marginTop" : "150px" , "marginBottom":"100px"}}>
+            <div style={{"marginTop" : "150px" , "marginBottom":"100px"}}  data-aos="flip-left">
 
                 <div className="d-flex flex-column flex-lg-row mt-5">
                     <div className='mt-5 h-100'>

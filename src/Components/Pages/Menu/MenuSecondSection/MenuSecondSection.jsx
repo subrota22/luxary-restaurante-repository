@@ -49,7 +49,7 @@ const MenuSecondSection = () => {
     ]
     return (
         <>
-            <div className="container menuDivSpace">
+            <div className="container menuDivSpace" data-aos="zoom-in">
                 <div className="row">
                     <div className="text-center">
                         <h2> Order via app </h2>
@@ -74,7 +74,7 @@ const MenuSecondSection = () => {
                     {
                         allFoodPrice?.map(food =>
 
-                            <div className="col-12 col-md-6 col-lg-3" key={food?.id}>
+                            <div className="col-12 col-md-6 col-lg-3" key={food?.id} data-aos="zoom-in">
                                 <div className="appDivStyle">
                                     <img src={food?.image} alt="app store" className='appStore' />
                                 </div>

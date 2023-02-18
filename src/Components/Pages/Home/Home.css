@@ -19,7 +19,8 @@
     background-color: rgb(255 118 41);
     height: 550px;
     width: 510px;
-    border-radius: 3px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .homeRightSideImage2 {
@@ -142,7 +143,6 @@
 .rightDivFlex {
     background-color: rgb(255 118 41);
     height: 630px;
-    border-radius: 3px;
     padding-top: 120px;
     text-align: start;
     width: 750px;

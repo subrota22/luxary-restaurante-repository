@@ -57,12 +57,12 @@
 }
 
 .aboutSecondSectionStyle {
-    background-color: rgb(226, 193, 160, 0.2);
+    background-color: rgba(243, 215, 188, 0.2);
     padding: 54px 10px;
 }
 
 .positionOfPerson {
-    color: rgb(255 118 41);
+    color: rgba(236, 209, 194, 0.1);
     font-size: 20px;
     font-weight: bold;
 }

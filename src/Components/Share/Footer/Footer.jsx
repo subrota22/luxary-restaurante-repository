@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Footer = () => {
     return (
         <>
-           <footer className='footerDiv'>
+           <footer className='footerDiv' data-aos="zoom-in">
            <div className="container">
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-4">
