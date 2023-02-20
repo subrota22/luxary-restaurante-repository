@@ -5,7 +5,7 @@ class AboutSecondSection extends Component {
         return (
             <>
             <div className="aboutSecondSectionStyle" data-aos="zoom-in">  
-                <div className="container aboutSecondSectionSpace" data-aos="zoom-in">
+                <div className="container aboutSecondSectionSpace" data-aos="zoom-in-right" data-aos-delay="500">
                     <div className="row">
                         <div className="d-flex flex-column flex-lg-row justify-content-between">
                             <div>
@@ -27,7 +27,7 @@ class AboutSecondSection extends Component {
                     </div>
                 </div>
 
-                <div className="container aboutSecondSectionSpace" data-aos="zoom-in">
+                <div className="container aboutSecondSectionSpace" data-aos="zoom-in-left" data-aos-delay="1000">
                     <div className="row">
                         <div className="d-flex flex-column flex-lg-row-reverse justify-content-between">
                             <div>

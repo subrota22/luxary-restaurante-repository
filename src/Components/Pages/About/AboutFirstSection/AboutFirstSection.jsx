@@ -6,9 +6,9 @@ import app4 from "../../../../assets/aboutImages/uber.svg";
 const AboutFirstSection = () => {
     return (
         <>
-           <div className="animateDivForAboutFirstSection"  data-aos="flip-left">
+           <div className="animateDivForAboutFirstSection"  data-aos="zoom-in">
             
-           <div className="container aboutFirstSection">
+           <div className="container aboutFirstSection" data-aos="zoom-in-left">
                 <div className="row">
                     <div className="addTopSpaceForAboutTextDiv">
                         <div className='textDivSpace'>
@@ -23,12 +23,12 @@ const AboutFirstSection = () => {
                 </div>
             </div>
 
-            <div className="backgroundFirstSectionDiv" data-aos="flip-left">
+            <div className="backgroundFirstSectionDiv" data-aos="zoom-in-right">
 
             </div>
-            <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='over_style_image' />
+            <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='over_style_image'/>
             <img src="https://i.ibb.co/NFGwYWP/about-Pizza.jpg" alt="pizza" className='pizzaStyle'/>
-            <div className="aboutAppsStyle">
+            <div className="aboutAppsStyle" data-aos="zoom-in-right">
                 <div className="container">
                     <div className="row">
 
@@ -46,7 +46,7 @@ const AboutFirstSection = () => {
                 </div>
             </div>
 
-            <div className="dishesImages" data-aos="flip-left">
+            <div className="dishesImages" data-aos="zoom-in-left">
             <h2 className="text-dark fs-1 fw-bolder my-5 text-center d-block d-lg-none"> Our favourite dishes </h2>
             <img src="https://i.ibb.co/X3hKh6X/about-Food-Image.jpg" alt="over_style_image" className='pizzaImageStyle'/>
             <img src="https://i.ibb.co/NFGwYWP/about-Pizza.jpg" alt="pizza" className='pizzaImageStyle' />

@@ -7,7 +7,7 @@ import app4 from "../../../../../assets/companyImages/company4.svg";
 const HomeFirstSection = () => {
     return (
         <>
-            <div className="d-flex flex-column flex-lg-row justify-content-between my-5" data-aos="flip-left">
+            <div className="d-flex flex-column flex-lg-row justify-content-between my-5" data-aos="zoom-in-left">
                 <div className='mt-5'>
                     <div className='firstSectionTextStyle'>
                         <h2 className="leftFirstTextStyle"> The best place to  </h2>
@@ -23,12 +23,12 @@ const HomeFirstSection = () => {
                     </div>
                 </div>
 
-                <div className='leftSideHomeSec'>
+                <div className='leftSideHomeSec' data-aos="zoom-in-right" data-aos-delay="500">
                     <img src="https://i.ibb.co/XFSD4gp/right-Side-Image.jpg" alt="homeImage" className='homeRightSideImage2' />
                 </div>
             </div>
             {/* app store images  */}
-            <div className="orderAppDiv my-4" data-aos="flip-right">
+            <div className="orderAppDiv my-4" data-aos="zoom-in-left">
                 <h2 className='text-center fs-4 fw-bold my-4 appHeadText'>Order from your favorite app today!</h2>
                 <div className="container">
                     <div className="row">

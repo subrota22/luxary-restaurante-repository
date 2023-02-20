@@ -5,11 +5,11 @@ import aboutLogo3 from "../../../../../assets/aboutImages/logoAbout3.svg";
 const HomeSevenSection = () => {
     return (
         <>
-            <div style={{"marginTop" : "150px" , "marginBottom":"100px"}}  data-aos="flip-left">
+            <div style={{"marginTop" : "150px" , "marginBottom":"100px"}}   data-aos="zoom-in">
 
                 <div className="d-flex flex-column flex-lg-row mt-5">
                     <div className='mt-5 h-100'>
-                        <div className='BookTextStyle' style={{ marginTop: "110px" }}>
+                        <div className='BookTextStyle' style={{ marginTop: "110px" }}  data-aos="zoom-in-left" data-aos-delay="500">
                             <div className="my-3">
                                 <p className='fs-3 text-dark fw-bold text-start my-2'> Book your table now</p>
                                 <p className='text-secondary'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br />
@@ -47,7 +47,7 @@ const HomeSevenSection = () => {
                         </div>
                     </div>
                     <div>
-                        <div className="bookLeftSideDiv text-secondary fs-6 fw-bold">
+                        <div className="bookLeftSideDiv text-secondary fs-6 fw-bold"  data-aos="fade-up"  data-aos-delay="1000">
                             <form>
                                 <div className="internalDivOfBookTable">
                                     <div className="d-flex flex-column flex-md-row justify-content-center mt-5">

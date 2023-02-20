@@ -265,6 +265,8 @@
     width: 587px;
     margin-right: -250px;
     position: relative;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 .internalDivOfBookTable {
     height: 750px;

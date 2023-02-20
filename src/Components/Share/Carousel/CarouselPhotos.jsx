@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 function CarouselPhotos() {
   return (
     <>
-    <div className="container carouselContainer">
+    <div className="container carouselContainer" data-aos="fade-up" data-aos-delay="500">
     <Carousel slide={false}>
       <Carousel.Item>
         <img

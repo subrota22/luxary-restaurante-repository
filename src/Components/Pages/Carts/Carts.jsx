@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 const Carts = () => {
     return (
         <>
-            <Helmet><title> Carts </title></Helmet>
+            <Helmet><title> Cart </title></Helmet>
             <div className="textDivStyle">
                 <h2>
                     <Typewriter

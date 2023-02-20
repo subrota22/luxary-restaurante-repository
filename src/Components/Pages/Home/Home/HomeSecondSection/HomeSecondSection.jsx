@@ -10,7 +10,7 @@ const HomeSecondSection = () => {
                 {/* menu div  */}
                 <div className="row mx-auto">
                     <p className='text-center fs-3 fw-bold textStyle'>Browse our menu</p>
-                    <div className="col-12 col-md-6 col-lg-3 my-3 border-2 homeDivSectionSecond">
+                    <div className="col-12 col-md-6 col-lg-3 my-3 border-2 homeDivSectionSecond"  data-aos="zoom-in-right">
                         <img src={menu1} alt="menu one" />
                         <p className='p-4 my-2'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam</p>
                         <p className='textCommonColor text-center fs-5 fw-bold'> Explore Menu </p>
@@ -20,12 +20,12 @@ const HomeSecondSection = () => {
                         <p className='p-4 my-2'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam</p>
                         <p className='textCommonColor text-center fs-5 fw-bold'> Explore Menu </p>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-3 my-3 homeDivSectionSecond">
+                    <div className="col-12 col-md-6 col-lg-3 my-3 homeDivSectionSecond" >
                         <img src={menu3} alt="menu one" />
                         <p className='p-4 my-2'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam</p>
                         <p className='textCommonColor text-center fs-5 fw-bold'> Explore Menu </p>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-3 my-3 homeDivSectionSecond">
+                    <div className="col-12 col-md-6 col-lg-3 my-3 homeDivSectionSecond" >
                         <img src={menu4} alt="menu one" />
                         <p className='p-4 my-2'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam</p>
                         <p className='textCommonColor text-center fs-5 fw-bold'> Explore Menu </p>
