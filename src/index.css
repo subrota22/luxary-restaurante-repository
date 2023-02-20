@@ -22,11 +22,11 @@ code {
 
 .body::-webkit-scrollbar{
 width: 12px;
-background-color: cadetblue;
+background-color: rgb(32, 55, 56);
 }
 .body::-webkit-scrollbar-thumb{
  border-radius: 12px;
- background-color: blueviolet;
+ background-color: rgb(255 118 41);
 }
 
 

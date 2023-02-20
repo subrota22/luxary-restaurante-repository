@@ -74,7 +74,7 @@ const HomeForthSection = () => {
 
                         {
                             allFoodPrice?.map(food =>
-                                <div className="col-12 col-md-6 col-lg-3 priceDiv" key={food?.id}  data-aos="flip-left">
+                                <div className="col-12 col-md-6 col-lg-3 priceDiv" key={food?.id}  data-aos="zoom-in">
                                     <div className="d-flex flex-column">
                                         <img src={food?.image} alt="food" className='foodPrice resizeBackImage' />
                                         <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
@@ -84,7 +84,7 @@ const HomeForthSection = () => {
                                 </div>
                             )
                         }
-                        <div className="d-flex flex-column my-3 flex-lg-row justify-content-center mx-auto buttonGroup">
+                        <div className="d-flex flex-column my-3 flex-lg-row justify-content-center mx-auto buttonGroup" data-aos="fade-down">
                             <button className="onlineOrder my-4"> Back a table </button>
                             <button className="reservateButton my-4"> Order online </button>
                         </div>

@@ -10,12 +10,12 @@ const HomeThirdSection = () => {
                     <div className="d-flex flex-column flex-md-column flex-lg-row mx-2">
                         {/* right side div  */}
                         <div className='mx-5 my-3'>
-                            <div className="aboutBackgroundOfHomePage">
+                            <div className="aboutBackgroundOfHomePage" data-aos="fade-down" data-aos-delay="500">
                             </div>
 
                         </div>
                         {/* left side div  */}
-                        <div className='ms-5 topSpaceOfHomeSecondDiv my-3 fw-bold'>
+                        <div className='ms-5 topSpaceOfHomeSecondDiv my-3 fw-bold' data-aos="fade-down">
                             <h2> About us</h2>
                             <p> Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum eget non vivamus volutpat odio cras vestibulum purus aliquam.</p>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dicta eveniet quos iure mollitia nobis nemo! Sequi eum ducimus reiciendis? Incidunt aliquam repudiandae ea, facere voluptatem hic dolorem ad voluptatum nemo aut, ex illum delectus nisi? Quos nulla magnam perspiciatis quis quam distinctio iste ea voluptas voluptates vero in optio animi fugit soluta a vel assumenda quibusdam nam aut recusandae reprehenderit, facilis minima. Ex dolores maxime illum repellat ducimus quisquam!</p>

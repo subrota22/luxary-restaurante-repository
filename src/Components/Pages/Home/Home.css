@@ -339,7 +339,10 @@ margin-top: -40px;
     box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
 }
 
-
+.homeDivSectionSecond:hover{
+transform: scale(0.8);
+transition-duration: 1s;
+}
 
 /* RWD  */
 @media (max-width:1000px) {

@@ -6,11 +6,11 @@ import menu4 from "../../../../../assets/homeImages/div4.svg";
 const HomeSecondSection = () => {
     return (
         <>
-            <div className="container topSpaceOfHomeSecondDiv" data-aos="zoom-in">
+            <div className="container topSpaceOfHomeSecondDiv" data-aos="fade-up">
                 {/* menu div  */}
                 <div className="row mx-auto">
                     <p className='text-center fs-3 fw-bold textStyle'>Browse our menu</p>
-                    <div className="col-12 col-md-6 col-lg-3 my-3 border-2 homeDivSectionSecond"  data-aos="zoom-in-right">
+                    <div className="col-12 col-md-6 col-lg-3 my-3 border-2 homeDivSectionSecond">
                         <img src={menu1} alt="menu one" />
                         <p className='p-4 my-2'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam</p>
                         <p className='textCommonColor text-center fs-5 fw-bold'> Explore Menu </p>
