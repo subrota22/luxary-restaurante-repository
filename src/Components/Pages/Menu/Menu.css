@@ -45,6 +45,11 @@
     justify-content: center;
     align-items: center;
 }
+.appDivStyle:hover{
+    box-shadow:  0 0  5px 6px rgba(25, 25, 31, 0.2);
+    border: none;
+    transition-duration: 1s;
+}
 
 .textDivStyle{
 display: flex;

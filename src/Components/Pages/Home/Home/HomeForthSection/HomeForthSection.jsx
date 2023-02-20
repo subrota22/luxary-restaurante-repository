@@ -70,13 +70,13 @@ const HomeForthSection = () => {
                     <p className='p-4 my-5 text-dark fs-6 fw-bold w-50 mx-auto'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</p>
                 </div>
                 <div className="container">
-                    <div className="row">
-
+                    <div className="row responsiveCard">
+                    {/* col-12 col-md-6 col-lg-3 */}
                         {
                             allFoodPrice?.map(food =>
-                                <div className="col-12 col-md-6 col-lg-3 priceDiv" key={food?.id}  data-aos="zoom-in">
+                                <div className="priceDiv" key={food?.id}  data-aos="zoom-in">
                                     <div className="d-flex flex-column">
-                                        <img src={food?.image} alt="food" className='foodPrice resizeBackImage' />
+                                        <img src={food?.image} alt="food" className='foodImage' />
                                         <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
                                     </div>
                                     <p className='fs-4 fw-bold my-3 text-center'>{food?.foodName}</p>
@@ -84,11 +84,12 @@ const HomeForthSection = () => {
                                 </div>
                             )
                         }
-                        <div className="d-flex flex-column my-3 flex-lg-row justify-content-center mx-auto buttonGroup" data-aos="fade-down">
+                    
+                    </div>
+                    <div className="d-flex flex-column my-3 flex-lg-row justify-content-center mx-auto buttonGroup" data-aos="fade-down">
                             <button className="onlineOrder my-4"> Back a table </button>
                             <button className="reservateButton my-4"> Order online </button>
                         </div>
-                    </div>
                 </div>
             </div>
 

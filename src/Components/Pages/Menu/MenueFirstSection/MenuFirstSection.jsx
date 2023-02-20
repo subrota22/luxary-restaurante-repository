@@ -84,18 +84,19 @@ const MenuFirstSection = () => {
           </div>
           {/* all food info  */}
             <div className="container mt-5">
-                    <div className="row">
+                    <div className="row responsiveCard">
 
                         {
                             allFoodPrice?.map(food =>
 
-                                <div className="col-sm-12 col-md-6 col-lg-3 priceDiv" key={food?.id} data-aos="zoom-in">
-                                    <div className='foodPrice resizeBackImage' style={{ backgroundImage: `url('${food?.image}')` }}>
-                                        <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
-                                    </div>
-                                    <p className='fs-4 fw-bold my-3 text-center'>{food?.foodName}</p>
-                                    <p className='fs-6 fw-bold my-2 text-center'>{food?.foodDescription}</p>
+                                <div className="priceDiv" key={food?.id}  data-aos="zoom-in">
+                                <div className="d-flex flex-column">
+                                    <img src={food?.image} alt="food" className='foodImage' />
+                                    <button className='internalPrice fs-6 fw-bold'>$ {food?.price} USD</button>
                                 </div>
+                                <p className='fs-4 fw-bold my-3 text-center'>{food?.foodName}</p>
+                                <p className='fs-6 fw-bold my-2 text-center'>{food?.foodDescription}</p>
+                            </div>
                             )
                         }
             

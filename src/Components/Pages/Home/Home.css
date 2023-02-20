@@ -50,8 +50,9 @@
 
 .homeDivSectionSecond:hover,
 .internalDivOfAbout:hover {
-    border: 2px solid blue;
+    box-shadow: 0 0 8px 6px rgba(36, 33, 33, 0.2);
     transition-duration: 1s;
+    border: none;
 }
 
 .topSpaceOfHomeSecondDiv {
@@ -87,11 +88,13 @@
     margin-bottom: 54px;
 }
 
-.foodPrice {
+.foodImage {
     border-radius: 22px;
     height: 250px;
     width: 250px;
-    margin: 12px;
+    margin-left: 50%;
+    position: relative;
+    margin-left: 2.2px;
 }
 
 .internalPrice {
@@ -102,14 +105,18 @@
     width: 125px;
     background-color: white;
     margin-top: 18px;
-    margin-right: 18px;;
+    margin-right: 18px;
 }
 
 .priceDiv {
     cursor: pointer;
+    width: 280px;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    margin: auto;
 }
 
-.priceDiv:hover>.resizeBackImage {
+.priceDiv:hover>.foodImage {
     transform: scale(0.9);
     transition-duration: 0.8s;
     padding-right: 0px;
@@ -117,7 +124,8 @@
     border-radius: 22px;
 
 }
-.priceDiv:hover .internalPrice{
+
+.priceDiv:hover .internalPrice {
     border-radius: 20px;
     padding: 8px;
     border: none;
@@ -127,18 +135,25 @@
     animation: money infinite linear forwards alternate 1s;
     border: 2px solid lime;
 }
+
 @keyframes money {
-    from{ transform: scale(0.8);  }  to{ transform: scale(1);  }
-}
-.priceDiv:hover , .internalDivOfBookTable:hover {
-    border: 1px solid lime;
-    border-radius: 12px;
-    transition-duration: 0.8s;
+    from {
+        transform: scale(0.8);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
-.resizeBackImage {
-    margin-left: 2.2px;
+.priceDiv:hover,
+.internalDivOfBookTable:hover {
+    box-shadow: 0 0 8px 6px rgba(36, 33, 33, 0.2);
+    border-radius: 12px;
+    transition: box-shadow, border-radius 0.4s;
 }
+
+
 
 .rightDivFlex {
     background-color: rgb(255 118 41);
@@ -164,8 +179,12 @@
     padding-right: 30px;
 }
 
-.foodPrice{position: relative;}
-.internalPrice{position: absolute; transform: translateY(10px) translateX(120px);}
+
+.internalPrice {
+    position: absolute;
+    transform: translateY(10px) translateX(120px);
+}
+
 /* fifth home section  */
 .Arrow {
     height: 57px;
@@ -204,7 +223,7 @@
     border-top-left-radius: 20px;
 }
 
-.RightArticlesStyle  {
+.RightArticlesStyle {
     width: 520px;
     margin: 0 80px;
 }
@@ -232,21 +251,24 @@
     font-weight: bold;
 }
 
-.articleTextAndImage:hover ,  .browsArticleButton:hover {
+.articleTextAndImage:hover,
+.browsArticleButton:hover {
     border: 2px solid lime;
     border-radius: 18px;
     transition-duration: 1s;
     transform: scale(1.1);
     margin-top: 10px 10px;
 }
-.browsArticleButton{
+
+.browsArticleButton {
     padding: 15px;
     width: 180px;
     border: none;
     border-radius: 28px;
     background-color: rgb(255 255 255);
 }
-.homeSixDiv{
+
+.homeSixDiv {
     background-color: rgb(255 249 243);
     margin-top: 110px;
     padding: 28px 8px;
@@ -259,7 +281,8 @@
     margin: 0 80px;
     padding: 10px 10px;
 }
-.bookLeftSideDiv{
+
+.bookLeftSideDiv {
     background-color: rgb(255 118 41);
     height: 955px;
     width: 587px;
@@ -268,6 +291,7 @@
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
 .internalDivOfBookTable {
     height: 750px;
     width: 540px;
@@ -282,101 +306,236 @@
     flex-direction: column;
 }
 
-.formInput{
-border-radius: 21px;
-background-color: white;
-border: 1px solid rgb(145, 138, 138);
-color:rgb(145, 138, 138) ;
-padding:6px 8px;
+.formInput {
+    border-radius: 21px;
+    background-color: white;
+    border: 1px solid rgb(145, 138, 138);
+    color: rgb(145, 138, 138);
+    padding: 6px 8px;
 }
 
-.textAreaStyle{
-padding:  0 15px;
-padding-top: 20px;
-display: flex;
-justify-content: center;
-align-items: center;
+.textAreaStyle {
+    padding: 0 15px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* home section eight  */
 
-.foodFollowImage{
+.foodFollowImage {
     height: 380px;
     width: 380px;
     border-radius: 15px;
     margin-left: 25px;
     margin-top: 7px;
 }
-.foodFollowImageSize{
-    height:175px;
+
+.foodFollowImageSize {
+    height: 175px;
     width: 175px;
     border-radius: 15px;
-    margin-left: 25px;  
+    margin-left: 25px;
     margin-top: 10px;
     margin-bottom: 12px;
 }
-.homeSixDiv{margin:auto;}
-.addSpaceForFollowButton{
-margin-top: -40px;
+
+.homeSixDiv {
+    margin: auto;
 }
-.carouselImage{
+
+.addSpaceForFollowButton {
+    margin-top: -40px;
+}
+
+.carouselImage {
     height: 420px;
     border-radius: 20px;
 }
-.appDivStyle:hover{
-    box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
-    border: none;
+
+.foodFollowImageSize:hover {
+    transform: scale(1.1);
     transition-duration: 1s;
-}
-.foodFollowImageSize:hover{
- transform: scale(1.1);
- transition-duration: 1s;
- box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
-}
-.foodFollowImage:hover{
-    transform: scale(0.9);
-    transition-duration: 1s;
-    box-shadow:  0 0 0 2px rgba(7, 7, 214, 0.5);
+    box-shadow: 0 0 6px 4px rgba(24, 24, 27, 0.3);
 }
 
-.homeDivSectionSecond:hover{
-transform: scale(0.8);
-transition-duration: 1s;
+.foodFollowImage:hover {
+    transform: scale(0.9);
+    transition-duration: 1s;
+    box-shadow: 0 0 6px 4px rgba(25, 25, 31, 0.3);
+}
+
+.homeDivSectionSecond:hover {
+    transform: scale(0.8);
+    transition-duration: 1s;
+}
+
+/* rwd card */
+.responsiveCard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 /* RWD  */
+
 @media (max-width:1000px) {
-    .carouselContainer{
+    .carouselContainer {
         margin-left: 24%;
-       }
-    .foodPrice{ width: 100%; }
-    .priceDiv{margin: 10px 5px; width: 100%;}
-    .fifthSection{margin-left: 47%;}
-    .pizzaDivStyle{ width: 100%; margin-left:190px;}
-    .rightArrow,.leftArrow{width: 30px ; margin-top: -8px;}
-    .Arrow{width: auto; padding: 20px; margin-top: 60%;}
-    .middleDivForUserFeedback{width: 401px; height: auto;}
-    .homeSixDiv{margin-left: 25%; text-align: center;}
-    .articlesImageSize{width: 100%; height: 258px;}
-    .articlesImage{width: 80%;}
-    .RightArticlesStyle{margin-left:54px; text-align: center; transform: translateX(100px);}
-    .articleTextAndImage{text-align: center;}
-    .textStyleSectionSix{display: flex; flex-direction: column-reverse;}
-    .bookLeftSideDiv{margin-left: 50%; background-color: white; margin-top: 45px; margin-bottom: 45px; }
-    .bookLeftSideDiv input {width: 420px; padding: 10px 5px;}
-    .homeSectionEight{margin: 150px 45px; margin-left: 30%;}
-    .foodFollowImageSize ,.foodFollowImage{width: 100%; height: 384px; margin: 20px 10px;}
-    .footerDiv{margin-left: 20%;}
-    .RightArticlesStyle{margin-left: -10%;}
-    .BookTextStyle{margin-left: 30%; font-size: larger;}
-    .leftDivFlex  .pizzaImage{margin: 30px 6px; margin-left: -28px; border-radius: 20px;}
+    }
+
+    .priceDiv {
+        width: 100vw;
+        margin-left: -220px;
+    }
+
+    .fifthSection {
+        margin-left: 47%;
+    }
+
+    .pizzaDivStyle {
+        width: 100%;
+        margin-left: 190px;
+    }
+
+    .rightArrow,
+    .leftArrow {
+        width: 30px;
+        margin-top: -8px;
+    }
+
+    .Arrow {
+        width: auto;
+        padding: 20px;
+        margin-top: 60%;
+    }
+
+    .middleDivForUserFeedback {
+        width: 401px;
+        height: auto;
+    }
+
+    .homeSixDiv {
+        margin-left: 25%;
+        text-align: center;
+    }
+
+    .articlesImageSize {
+        width: 100%;
+        height: 258px;
+    }
+
+    .articlesImage {
+        width: 80%;
+    }
+
+    .RightArticlesStyle {
+        margin-left: 54px;
+        text-align: center;
+        transform: translateX(100px);
+    }
+
+    .articleTextAndImage {
+        text-align: center;
+    }
+
+    .textStyleSectionSix {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .bookLeftSideDiv {
+        margin-left: 50%;
+        background-color: white;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .bookLeftSideDiv input {
+        width: 420px;
+        padding: 10px 5px;
+    }
+
+    .homeSectionEight {
+        margin: 150px 45px;
+        margin-left: 30%;
+    }
+
+    .foodFollowImageSize,
+    .foodFollowImage {
+        width: 100%;
+        height: 384px;
+        margin: 20px 10px;
+    }
+
+    .footerDiv {
+        margin-left: 20%;
+    }
+
+    .RightArticlesStyle {
+        margin-left: -10%;
+    }
+
+    .BookTextStyle {
+        margin-left: 30%;
+        font-size: larger;
+    }
+
+    .leftDivFlex .pizzaImage {
+        margin: 30px 6px;
+        margin-left: -28px;
+        border-radius: 20px;
+    }
 }
+
+@media (max-width:800px) {
+    .foodImage {
+        width: 100%;
+    }
+
+    .priceDiv {
+        width: 100vw;
+        margin-left: -100px;
+    }
+
+    .internalPrice {
+        position: absolute;
+        transform: translateY(10px) translateX(20px);
+        animation: none;
+    }
+
+    .responsiveCard {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+}
+
 
 @media (max-width:500px) {
-    .foodPrice{ width: 100%; }
-    .priceDiv{margin: 10px 5px;}
-    .internalPrice{position: absolute; transform: translateY(10px) translateX(20px); animation: none;}
+    .foodImage {
+        width: 100%;
+    }
+
+    .priceDiv {
+        width: 100vw;
+        margin-left: 100px;
+    }
+
+    .internalPrice {
+        position: absolute;
+        transform: translateY(10px) translateX(20px);
+        animation: none;
+    }
+
+    .responsiveCard {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+    }
 }
-
-
 
