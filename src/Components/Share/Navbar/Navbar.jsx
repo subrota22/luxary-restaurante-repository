@@ -8,9 +8,9 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
           <NavLink to="/" className="navbar-brand">
-            <img src={logo} alt="nav logo" className='navLogo mx-auto' />
+            <img src={logo} alt="nav logo" className='navLogo mx-auto d-md-none d-lg-block' />
           </NavLink>
-          <button className="navbar-toggler mx-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler d-md-none d-lg-block" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">

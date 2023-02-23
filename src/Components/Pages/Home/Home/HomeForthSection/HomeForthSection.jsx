@@ -67,7 +67,7 @@ const HomeForthSection = () => {
             <div className="secondBrowsForHome topSpaceOfHomeSecondDiv mb-5"  data-aos="zoom-in-left">
                 <div className="textSpace">
                     <h2 className='text-center fs-3 fw-bold my-3'> Browse our menu </h2>
-                    <p className='p-4 my-5 text-dark fs-6 fw-bold w-50 mx-auto'>Lorem ipsum dolor sit amet consectetur adipiscing elit ugue quam diam vitae velit bibendum elementum.</p>
+                    <p className='p-4 my-5 text-dark fs-6 fw-bold w-auto mx-auto text-center'>Lorem ipsum dolor sit amet consectetur adipiscing elit <br /> ugue quam diam vitae velit bibendum elementum.</p>
                 </div>
                 <div className="container">
                     <div className="row responsiveCard">
